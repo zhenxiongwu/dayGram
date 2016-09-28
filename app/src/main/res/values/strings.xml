@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DayGram</string>
+
+    <item name="tag_first" type="id"></item>
+    <item name="tag_second" type="id"></item>
+
+    <string name="title_activity_edit">EditActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="array_list_index">Index</string>
+    <string name="daily_content">DailyContent</string>
+
+    <!--WEEK-->
+    <string name="Sunday">SUN</string>
+    <string name="Monday">MON</string>
+    <string name="Tuesday">TUE</string>
+    <string name="Wednesday">WED</string>
+    <string name="Thursday">THU</string>
+    <string name="Friday">FRI</string>
+    <string name="Saturday">SAT</string>
+
+    <!--MONTH-->
+    <string name="January">JAN</string>
+    <string name="February">FEB</string>
+    <string name="March">MAR</string>
+    <string name="April">APR</string>
+    <string name="May">MAY</string>
+    <string name="June">JUN</string>
+    <string name="July">JUL</string>
+    <string name="August">AUG</string>
+    <string name="September">SEP</string>
+    <string name="October">OCT</string>
+    <string name="November">NOV</string>
+    <string name="December">DEC</string>
+</resources>

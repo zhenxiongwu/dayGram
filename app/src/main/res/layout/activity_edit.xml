@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.daygram.Ac"
+    android:background="@drawable/edit_background">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentStart="false"
+        android:id="@+id/title"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:id="@+id/done"
+        android:layout_gravity="bottom"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/done_1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/done"
+        android:gravity="top|left"
+        android:hint="请编辑"
+        android:textSize="18sp"
+        android:id="@+id/edit_daily"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="25dp" />
+</RelativeLayout>
